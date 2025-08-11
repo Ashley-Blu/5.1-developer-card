@@ -11,7 +11,7 @@ This project displays a developer’s information from a selected record in a Go
 ### Clone the repository 
 
 In your preferred text editor(vs code) or IDE, 
-git clone https://github.com/Ashley-Blu/5.1-developer-card.git
+git clone https://github.com/Ashley-Blu/5.1-developer-card.git,
 cd 5.1-developer-card
 
 ### Run locally

@@ -1,9 +1,75 @@
-main{
-    width: 100%;
+/* center the card vertically and horizontally */
+html, body {
     height: 100%;
-    background-color: bisque;
+    margin: 0;
+    background-color: rgb(237, 233, 202);
+    font-family: Arial, sans-serif;
 }
 
-.devCard{
- width: 500px;
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;  /* center horizontally */
+    align-items: center;      /* center vertically */
+    background-color: #fef7f0;
+}
+
+.dev-card {
+    width: 600px;
+    height: 600px;
+    background-color: bisque;
+    padding: 24px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-sizing: border-box;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.top-section img {
+    width: 250px;
+    height: 350px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: #333;
+}
+
+.details h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.details p {
+    margin: 0;
+    font-size: 20px;
+
+}
+
+.bio p {
+    margin: 15px 0;
+    font-size: 20px;
+    line-height: 1.9;
+    color: #444;
+}
+
+.details a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.details a:hover {
+    text-decoration: underline;
 }
